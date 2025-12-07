@@ -17,6 +17,8 @@ public class Client {
             }
             os.write(str.getBytes());
         }
+
+
         os.close();
         socket.close();
     }
